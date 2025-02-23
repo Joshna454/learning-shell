@@ -62,3 +62,12 @@ Run `cat /etc/shells` to list all the available shells on your system.
 |`uname -a`|	Displays OS information	|`uname -a`|
 |`df -h`	|Checks disk space usage	|`df -h`|
  
+# 7️⃣ Processes
+| Command | Description | Example | 
+|----------|----------|----------|
+|`ps`|	Lists running processes	|`ps aux`|
+|`top`	|Shows real-time system stats	|`top`|
+|`kill`|	Terminates a process	|`kill 1234`|
+
+
+ 
