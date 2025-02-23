@@ -61,7 +61,8 @@ Run `cat /etc/shells` to list all the available shells on your system.
 |`uptime`	| Shows system uptime	|`uptime`|
 |`uname -a`|	Displays OS information	|`uname -a`|
 |`df -h`	|Checks disk space usage	|`df -h`|
- 
+| `du -sh|	Shows folder size	|`du -sh Documents/`|
+
 # 7️⃣ Processes
 | Command | Description | Example | 
 |----------|----------|----------|
