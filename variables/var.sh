@@ -31,8 +31,8 @@ echo "today day is: $current_day"    #output: today day is: Sunday
 
 
 #default_value
-name="gem"
-echo "hello, ${name:-siri}"       #output:hello, gem
+name="magnus"
+echo "hello, ${name:-siri}"       #output:hello, magnus
 
 name="max"
 echo "hello, ${name:-guest}"      #output:hello, max 
