@@ -43,16 +43,22 @@ Run `cat /etc/shells` to list all the available shells on your system.
 | `tail`   | Shows the last 10 lines of a file  | `tail file.txt` |
 | `grep`  | Searches for a pattern in a file   | `grep "hello" file.txt`   |
 
+# 5️⃣ Permissions & Ownership
 
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
+| Command | Description | Example | 
+|----------|----------|----------|
+|`chmod` |	Changes file permissions	| `chmod 755 script.sh`|
+|`chown`	| Changes file owner	|`chown user:user file.txt`|
+|`ls -l`|	Shows file permissions	|`ls -l file.txt`|
 
-| Data 4   | Data 5   | Data 6   || Data 4   | Data 5   | Data 6   |
-v
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
-| Data 4   | Data 5   | Data 6   |
+
+# 6️⃣ User & System Information
+
+| Command | Description | Example | 
+|----------|----------|----------|
+|`whoami`	| Shows the current user	| `whoami` |
+| `who`	| Lists logged-in users|	`who`|
+|`uptime`	| Shows system uptime	|`uptime`|
+|`uname -a`|	Displays OS information	|`uname -a`|
+|`df -h`	|Checks disk space usage	|`df -h`|
+ 
